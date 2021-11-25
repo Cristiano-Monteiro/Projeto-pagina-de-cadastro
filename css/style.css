@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-image: url(/images/startup-desk.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+}
+
+.InformacoesIniciais{
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.InformacoesIniciais p{
+    color: white;
+    font-size: 18px;
+}
+
+h1{
+    margin: 0;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.data{
+    background-color: blue;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px black;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.data p{
+    font-size: 18px;
+    color: black;
+}
+
+
+
+section{
+    margin-left: auto;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-top: 150px;
+    margin-right: 100px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+section h2{
+    margin-bottom: 40px;
+}
+
+section input[type="text"], input[type="email"]{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: rgb(207, 207, 207);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+section input[type="submit"]{
+    padding: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: none;
+    background-color: blue;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 27px;
+    margin-top: 30px;
+}
+
+a{
+    color: black;
+}

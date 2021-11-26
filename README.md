@@ -6,4 +6,8 @@
 * (PT-BR) Alguns sites foram utilizados como inspiração para este. 
 * (EN) Some websites were used as inspiration for this one.
 
+* Autores das imagens utlizadas no site:
+    - Matthew Henry : https://www.shopify.com.br/burst/imagens-hd/mesa-em-uma-startup?c=negocios
+    - Sarah Pflug : https://www.shopify.com.br/burst/imagens-hd/instrumentos-de-escrita?c=negocios
+
 Link do site: 

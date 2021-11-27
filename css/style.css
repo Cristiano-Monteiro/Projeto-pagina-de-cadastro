@@ -27,13 +27,13 @@ main{
 
 h1{
     margin: 0;
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.568);
     padding: 15px;
     border-radius: 20px;
 }
 
 .data{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.671);
     width: 300px;
     padding: 10px;
     border-radius: 20px;
@@ -85,6 +85,10 @@ section input[type="submit"]{
     font-weight: bold;
     margin-left: 27px;
     margin-top: 30px;
+}
+
+section input[type="submit"]:hover{
+    background-color: red;
 }
 
 a{
@@ -152,4 +156,14 @@ img{
 
 .Programacao p{
     font-size: 20px;
+}
+
+footer{
+    background-color: black;
+    padding: 5px;
+}
+
+footer p{
+    color: white;
+    margin-left: 270px;
 }

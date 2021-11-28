@@ -167,3 +167,66 @@ footer p{
     color: white;
     margin-left: 270px;
 }
+
+@media screen and (max-width: 1204px) {
+    .InformacoesIniciais{
+        width: 500px;
+        height: 600px;
+        text-align: center;
+        margin-top: 150px;
+        margin-left: 70px;
+    }
+
+    section{
+        margin-right: 50px;
+    }
+
+    img{
+        width: 60px;
+        margin-left: 180px;
+        margin-top: 0px;
+        margin-right: 20px;
+        position: relative;
+        top: 15px;
+    }
+
+    .InformacoesImportantes div{
+        
+    }
+
+    .LocalLives{
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1308px) {
+    img{
+        width: 60px;
+        margin-left: 15%;
+        margin-top: 0px;
+        margin-right: 20px;
+        position: relative;
+        top: 15px;
+    }
+
+    .InformacoesImportantes{
+        height: 1200px;
+    }
+
+    .InformacoesImportantes div{
+        display: block;   
+    }
+
+    .LocalLives{
+        margin-left: 32%;
+        margin-bottom: 100px;
+    }
+
+    .DataEvento{
+        margin-left: 32%;
+    }
+
+    .Programacao .h2-1{
+        margin-right: 10%;
+    }
+}

@@ -165,8 +165,10 @@ footer{
 
 footer p{
     color: white;
-    margin-left: 270px;
+    text-align: center;
 }
+
+/*
 
 @media screen and (max-width: 1204px) {
     .InformacoesIniciais{
@@ -194,11 +196,24 @@ footer p{
         margin-left: 60px;
     }
 }
+*/
 
 @media screen and (max-width: 1308px) {
+    .InformacoesIniciais{
+        width: 500px;
+        height: 600px;
+        text-align: center;
+        margin-top: 150px;
+        margin-left: 70px;
+    }
+
+    section{
+        margin-right: 50px;
+    }
+
     img{
         width: 60px;
-        margin-left: 15%;
+        margin-left: 0;
         margin-top: 0px;
         margin-right: 20px;
         position: relative;
@@ -207,6 +222,10 @@ footer p{
 
     .InformacoesImportantes{
         height: 1200px;
+    }
+
+    .InformacoesImportantes .h2-1{
+        text-align: center;  
     }
 
     .InformacoesImportantes div{
@@ -222,7 +241,67 @@ footer p{
         margin-left: 32%;
     }
 
-    .Programacao .h2-1{
-        margin-right: 10%;
+    .Programacao .h2-1 {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .Programacao img{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .InformacoesIniciais{
+        width: 450px;
+    }
+
+    .InformacoesIniciais .data{
+        margin-left: 60px;
+    }
+        
+    section{
+        width: 350px;
+    }
+
+    section input[type="submit"]{
+        margin-left: 6px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    main{
+        height: 1500px;
+    }
+
+    .InformacoesIniciais{
+        position: relative;
+        left: 30%;
+        margin-left: 0;
+        margin-right: 0;  
+        width: 700px;      
+    }
+
+    .InformacoesIniciais .data{
+        margin-left: 14%;
+    }
+
+    section{
+        position: relative;
+        top: 700px;
+        margin-left: 0;
+        margin-right: 0; 
+        right: 22%;
+        width: 600px;
+    }
+
+    .InformacoesImportantes div{
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .InformacoesImportantes .LocalLives{
+        margin-bottom: 80px;
     }
 }

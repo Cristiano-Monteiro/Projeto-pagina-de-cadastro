@@ -5,7 +5,7 @@ body{
 }
 
 main{
-    background-image: url(/images/startup-desk.jpg);
+    background-image: url(../images/startup-desk.jpg);
     background-size: cover;
     height: 800px;
     display: flex;

@@ -168,36 +168,6 @@ footer p{
     text-align: center;
 }
 
-/*
-
-@media screen and (max-width: 1204px) {
-    .InformacoesIniciais{
-        width: 500px;
-        height: 600px;
-        text-align: center;
-        margin-top: 150px;
-        margin-left: 70px;
-    }
-
-    section{
-        margin-right: 50px;
-    }
-
-    img{
-        width: 60px;
-        margin-left: 180px;
-        margin-top: 0px;
-        margin-right: 20px;
-        position: relative;
-        top: 15px;
-    }
-
-    .LocalLives{
-        margin-left: 60px;
-    }
-}
-*/
-
 @media screen and (max-width: 1308px) {
     .InformacoesIniciais{
         width: 500px;
@@ -303,5 +273,51 @@ footer p{
 
     .InformacoesImportantes .LocalLives{
         margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        background-position: center;
+    }
+
+    .InformacoesIniciais{
+        width: 100%;
+        max-width: 600px;
+        margin: 0%;
+        margin-top: 10%;
+        left: 27%;
+    }
+
+    .InformacoesIniciais .data{
+        margin-left: 3%;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    *{
+        max-width: 5000px;    
+    }
+
+    .InformacoesIniciais{
+        left: 20%;
+    }
+
+    .InformacoesIniciais .data{
+        margin-left: 0%;
+    }
+
+    section{
+        right: 49%;
+    }
+
+    .Programacao{
+        height: 1200px;
+    }
+
+    .Programacao div{
+        width: 100%;
+        max-width: 400px;
     }
 }

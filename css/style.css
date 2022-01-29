@@ -312,12 +312,62 @@ footer p{
         right: 49%;
     }
 
+    .InformacoesImportantes{
+        height: auto;
+    }
+
+    .InformacoesImportantes div:last-child{
+        margin-bottom: 15%;
+    }
+
     .Programacao{
-        height: 1200px;
+        height: auto;
     }
 
     .Programacao div{
         width: 100%;
-        max-width: 400px;
+        max-width: 70%;
+        padding: 20px;
+    }
+
+    .Programacao div:last-child{
+        margin-bottom: 0%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .InformacoesIniciais{
+        left: 12%;
+    }
+
+    section{
+        width: 100%;
+        max-width: 70%;
+        right: 72%;
+    }
+
+    section h2{
+        text-align: center;
+    }
+
+    section input[type="submit"]{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 0%;
+    }
+
+    .InformacoesImportantes{
+        height: auto;
+    }
+
+    .InformacoesImportantes img{
+        width: 10%;
+        top: 7px;
+    }
+
+    .InformacoesImportantes div{
+        width: 100%;
+        max-width: 60%;
+        height: auto;
     }
 }

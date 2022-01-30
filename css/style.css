@@ -242,32 +242,54 @@ footer p{
 
 @media screen and (max-width: 1024px) {
     main{
-        height: 1500px;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+        background-position: center;
     }
 
     .InformacoesIniciais{
         position: relative;
-        left: 30%;
-        margin-left: 0;
-        margin-right: 0;  
-        width: 700px;      
+        margin-left: 0%;
+        margin-right: 0%; 
+        width: 700px;
+    }
+
+    .InformacoesIniciais h1{
+        padding: 30px;
+    }
+
+    .InformacoesIniciais p{
+        font-size: 23px;
     }
 
     .InformacoesIniciais .data{
-        margin-left: 14%;
+        width: 100%;
+        max-width: 450px;
+        margin-left: 15%;
+        margin-right: 0px;
     }
 
     section{
         position: relative;
-        top: 700px;
-        margin-left: 0;
-        margin-right: 0; 
-        right: 22%;
+        margin-left: 0px;
+        margin-right: 0px; 
+        right: 0%;
         width: 600px;
+        margin-bottom: 20%;
+    }
+
+    section h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    section input[type="submit"]{
+        margin-left: 20%;
     }
 
     .InformacoesImportantes div{
-        margin-left: 0;
+        margin-left: 0px;
         margin: auto;
     }
 
@@ -283,16 +305,33 @@ footer p{
 
     .InformacoesIniciais{
         width: 100%;
-        max-width: 600px;
+        max-width: 500px;
         margin: 0%;
         margin-top: 10%;
-        left: 27%;
     }
 
     .InformacoesIniciais .data{
-        margin-left: 3%;
+        margin-left: 10px;
     }
 
+    section{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    section input[type="submit"]{
+        margin-left: 8%;
+        margin-top: 0%;
+    }
+
+    .Programacao{
+        height: 1150px;
+    }
+
+    .Programacao div{
+        width: 100%;
+        max-width: 500px;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -301,18 +340,35 @@ footer p{
     }
 
     .InformacoesIniciais{
-        left: 20%;
+        max-width: 340px;
+        height: auto;
     }
 
     .InformacoesIniciais .data{
-        margin-left: 0%;
+        margin-left: 2%;
+        max-width: 300px;
     }
 
     section{
-        right: 49%;
+        max-width: 330px;
+    }
+
+    section input[type="submit"]{
+        margin-left: 0%;
     }
 
     .InformacoesImportantes{
+        height: auto;
+    }
+
+    .InformacoesImportantes img{
+        width: 40px;
+        top: 3px;
+    }
+
+    .InformacoesImportantes div{
+        width: 100%;
+        max-width: 300px;
         height: auto;
     }
 
@@ -321,7 +377,7 @@ footer p{
     }
 
     .Programacao{
-        height: auto;
+        height: 1350px;
     }
 
     .Programacao div{
@@ -329,21 +385,13 @@ footer p{
         max-width: 70%;
         padding: 20px;
     }
-
-    .Programacao div:last-child{
-        margin-bottom: 0%;
-    }
 }
 
-@media screen and (max-width: 411px) {
-    .InformacoesIniciais{
-        left: 12%;
-    }
-
+@media screen and (max-width: 471px) {
     section{
         width: 100%;
-        max-width: 70%;
-        right: 72%;
+        max-width: 60%;
+        height: auto;
     }
 
     section h2{
@@ -369,5 +417,9 @@ footer p{
         width: 100%;
         max-width: 60%;
         height: auto;
+    }
+
+    .Programacao{
+        height: 1550px;
     }
 }

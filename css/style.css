@@ -15,7 +15,7 @@ main{
     width: 500px;
     height: 600px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 8%;
     margin-left: 100px;
 }
 
@@ -54,7 +54,7 @@ section{
     width: 400px;
     height: 500px;
     background-color: rgba(255, 255, 255, 0.74);
-    margin-top: 150px;
+    margin-top: 8%;
     margin-right: 100px;
     padding: 40px;
     border-radius: 20px;
@@ -173,7 +173,6 @@ footer p{
         width: 500px;
         height: 600px;
         text-align: center;
-        margin-top: 150px;
         margin-left: 70px;
     }
 
@@ -308,6 +307,7 @@ footer p{
         max-width: 500px;
         margin: 0%;
         margin-top: 10%;
+        margin-bottom: 20%;
     }
 
     .InformacoesIniciais .data{
@@ -377,11 +377,10 @@ footer p{
     }
 
     .Programacao{
-        height: 1350px;
+        height: 1400px;
     }
 
     .Programacao div{
-        width: 100%;
         max-width: 70%;
         padding: 20px;
     }
@@ -418,8 +417,42 @@ footer p{
         max-width: 60%;
         height: auto;
     }
+}
+
+@media screen and (max-width: 460px) {
+    section input[type="submit"]{
+        width: 100%;
+        font-size: 15px;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width: 442px) {
+    .InformacoesIniciais .data{
+        width: 100%;
+        max-width: 90%;
+    }
 
     .Programacao{
         height: 1550px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .Programacao{
+        height: 1650px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .Programacao{
+        height: 1850px;
+    }
+}
+
+@media screen and (max-width: 327px) {
+    .Programacao{
+        height: 1950px;
     }
 }

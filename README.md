@@ -1,3 +1,8 @@
+<div>
+    <img src="https://user-images.githubusercontent.com/91402144/151905871-8d467d63-fa1a-4a2c-a81a-e4423c625315.jpg" width="60%">
+    <img src="https://user-images.githubusercontent.com/91402144/151906220-334c73e2-5bbf-4f43-a5cb-065605da9d53.jpg" width="16.3%">
+</div>
+
 # Projeto-pagina-de-cadastro
 (PT-BR) Projeto de uma página de cadastro para um evento qualquer usando HTML e CSS.
 

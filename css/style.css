@@ -136,17 +136,19 @@ img{
     background-image: url(../images/wrtiting-tools.jpg);
     background-size: cover;
     height: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Programacao img{
-    margin-left: 410px;
+    margin-left: 0%;
     margin-top: 40px;
 }
 
 .Programacao div{
     border: 4px solid black;
     width: 700px;
-    margin: auto;
     margin-bottom: 30px;
     border-radius: 10px;
     text-align: center;
@@ -211,13 +213,8 @@ footer p{
     }
 
     .Programacao .h2-1 {
-        margin-left: 0;
-        margin-right: 0;
-        text-align: center;
-    }
-
-    .Programacao img{
-        margin-left: 0;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
 
@@ -325,7 +322,7 @@ footer p{
     }
 
     .Programacao{
-        height: 1150px;
+        height: 1200px;
     }
 
     .Programacao div{
@@ -377,7 +374,11 @@ footer p{
     }
 
     .Programacao{
-        height: 1400px;
+        height: 1450px;
+    }
+
+    .Programacao .h2-1{
+        text-align: center;
     }
 
     .Programacao div{
@@ -441,7 +442,7 @@ footer p{
 
 @media screen and (max-width: 415px) {
     .Programacao{
-        height: 1650px;
+        height: 1700px;
     }
 }
 
@@ -453,6 +454,6 @@ footer p{
 
 @media screen and (max-width: 327px) {
     .Programacao{
-        height: 1950px;
+        height: 1990px;
     }
 }

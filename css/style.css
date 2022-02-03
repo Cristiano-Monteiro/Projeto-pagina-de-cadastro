@@ -25,14 +25,13 @@ main{
     font-weight: bold;
 }
 
-h1{
-    margin: 0;
+.InformacoesIniciais h1{
     background-color: rgba(255, 255, 255, 0.568);
     padding: 15px;
     border-radius: 20px;
 }
 
-.data{
+.InformacoesIniciais .data{
     background-color: rgba(0, 0, 255, 0.671);
     width: 300px;
     padding: 10px;
@@ -46,8 +45,6 @@ h1{
     font-size: 18px;
     color: black;
 }
-
-
 
 section{
     margin-left: auto;
@@ -96,14 +93,12 @@ a{
 }
 
 .InformacoesImportantes{
-    height: 600px;
+    height: auto;
     background-color: white;
 }
 
 img{
     width: 60px;
-    margin-left: 280px;
-    margin-top: 0px;
     margin-right: 20px;
     position: relative;
     top: 15px;
@@ -113,6 +108,7 @@ img{
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 50px;
+    text-align: center; 
 }
 
 .InformacoesImportantes div{
@@ -126,10 +122,11 @@ img{
     text-align: center;
     box-shadow: 12px 12px 8px black;
     background-color: rgb(224, 219, 219);
+    margin-bottom: 5%;
 }
 
-.LocalLives{
-    margin-left: 200px;
+.InformacoesImportantes .LocalLives{
+    margin-left: 15%;
 }
 
 .Programacao{
@@ -182,30 +179,13 @@ footer p{
         margin-right: 50px;
     }
 
-    img{
-        width: 60px;
-        margin-left: 0;
-        margin-top: 0px;
-        margin-right: 20px;
-        position: relative;
-        top: 15px;
-    }
-
-    .InformacoesImportantes{
-        height: 1200px;
-    }
-
-    .InformacoesImportantes .h2-1{
-        text-align: center;  
-    }
-
     .InformacoesImportantes div{
         display: block;   
     }
 
-    .LocalLives{
+    .InformacoesImportantes .LocalLives{
         margin-left: 32%;
-        margin-bottom: 100px;
+        margin-bottom: 5%;
     }
 
     .DataEvento{
@@ -284,13 +264,14 @@ footer p{
         margin-left: 20%;
     }
 
-    .InformacoesImportantes div{
-        margin-left: 0px;
+    .InformacoesImportantes .LocalLives{
         margin: auto;
+        margin-bottom: 5%
     }
 
-    .InformacoesImportantes .LocalLives{
-        margin-bottom: 80px;
+    .InformacoesImportantes div{
+        margin: auto;
+        margin-bottom: 10%;
     }
 }
 

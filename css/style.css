@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 
 main{
@@ -98,17 +99,20 @@ a{
 }
 
 img{
-    width: 60px;
-    margin-right: 20px;
-    position: relative;
-    top: 15px;
+    width: 100%;
+    max-width: 50px;
+    margin-right: 10px;
 }
 
 .h2-1{
     font-weight: bold;
     font-size: 30px;
-    margin-bottom: 50px;
     text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 0%;
 }
 
 .InformacoesImportantes div{
@@ -132,15 +136,10 @@ img{
 .Programacao{
     background-image: url(../images/wrtiting-tools.jpg);
     background-size: cover;
-    height: 940px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.Programacao img{
-    margin-left: 0%;
-    margin-top: 40px;
 }
 
 .Programacao div{
@@ -151,6 +150,10 @@ img{
     text-align: center;
     box-shadow: 12px 12px 8px black;
     background-color: rgba(255, 255, 255, 0.425);
+}
+
+.Programacao div:last-child{
+    margin-bottom: 60px;
 }
 
 .Programacao p{
@@ -190,11 +193,6 @@ footer p{
 
     .DataEvento{
         margin-left: 32%;
-    }
-
-    .Programacao .h2-1 {
-        margin-left: 0%;
-        margin-right: 0%;
     }
 }
 
@@ -302,10 +300,6 @@ footer p{
         margin-top: 0%;
     }
 
-    .Programacao{
-        height: 1200px;
-    }
-
     .Programacao div{
         width: 100%;
         max-width: 500px;
@@ -352,14 +346,6 @@ footer p{
 
     .InformacoesImportantes div:last-child{
         margin-bottom: 15%;
-    }
-
-    .Programacao{
-        height: 1450px;
-    }
-
-    .Programacao .h2-1{
-        text-align: center;
     }
 
     .Programacao div{
@@ -414,27 +400,5 @@ footer p{
     .InformacoesIniciais .data{
         width: 100%;
         max-width: 90%;
-    }
-
-    .Programacao{
-        height: 1550px;
-    }
-}
-
-@media screen and (max-width: 415px) {
-    .Programacao{
-        height: 1700px;
-    }
-}
-
-@media screen and (max-width: 335px) {
-    .Programacao{
-        height: 1850px;
-    }
-}
-
-@media screen and (max-width: 327px) {
-    .Programacao{
-        height: 1990px;
     }
 }

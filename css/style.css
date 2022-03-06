@@ -8,16 +8,17 @@ body{
 main{
     background-image: url(../images/startup-desk.jpg);
     background-size: cover;
-    height: 800px;
+    height: auto;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .InformacoesIniciais{
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    max-width: 40%;
+    height: auto;
     text-align: center;
-    margin-top: 8%;
-    margin-left: 100px;
 }
 
 .InformacoesIniciais p{
@@ -34,26 +35,24 @@ main{
 
 .InformacoesIniciais .data{
     background-color: rgba(0, 0, 255, 0.671);
-    width: 300px;
+    width: 100%;
+    max-width: 70%;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 6px 6px 3px black;
-    margin-left: 80px;
-    margin-top: 30px;
+    margin: 0% auto;
 }
 
-.data p{
+.InformacoesIniciais .data p{
     font-size: 18px;
     color: black;
 }
 
 section{
-    margin-left: auto;
-    width: 400px;
-    height: 500px;
+    width: 100%;
+    max-width: 30%;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.74);
-    margin-top: 8%;
-    margin-right: 100px;
     padding: 40px;
     border-radius: 20px;
 }
@@ -73,16 +72,14 @@ section input[type="text"], input[type="email"]{
 }
 
 section input[type="submit"]{
-    padding: 25px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 25px 60px;
     border: none;
     background-color: blue;
     border-radius: 30px;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 27px;
-    margin-top: 30px;
+    margin-top: 10px;
+    box-sizing: border-box;
 }
 
 section input[type="submit"]:hover{
@@ -91,6 +88,10 @@ section input[type="submit"]:hover{
 
 a{
     color: black;
+}
+
+.InformacoesIniciais, section{
+    margin: 2% 0%;
 }
 
 .InformacoesImportantes{
@@ -171,17 +172,6 @@ footer p{
 }
 
 @media screen and (max-width: 1308px) {
-    .InformacoesIniciais{
-        width: 500px;
-        height: 600px;
-        text-align: center;
-        margin-left: 70px;
-    }
-
-    section{
-        margin-right: 50px;
-    }
-
     .InformacoesImportantes div{
         display: block;   
     }

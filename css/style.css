@@ -97,6 +97,9 @@ a{
 .InformacoesImportantes{
     height: auto;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img{
@@ -117,21 +120,16 @@ img{
 }
 
 .InformacoesImportantes div{
-    display: inline-block;
-    width: 350px;
-    height: 300px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
     border: 4px solid black;
     border-radius: 25px;
-    margin-right: 80px;
     padding: 50px;
     text-align: center;
     box-shadow: 12px 12px 8px black;
     background-color: rgb(224, 219, 219);
     margin-bottom: 5%;
-}
-
-.InformacoesImportantes .LocalLives{
-    margin-left: 15%;
 }
 
 .Programacao{
@@ -171,6 +169,7 @@ footer p{
     text-align: center;
 }
 
+/*
 @media screen and (max-width: 1308px) {
     .InformacoesImportantes div{
         display: block;   

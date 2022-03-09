@@ -34,6 +34,11 @@ main{
     border-radius: 20px;
 }
 
+.InformacoesIniciais div:nth-child(2){
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
 .InformacoesIniciais .data{
     background-color: rgba(0, 0, 255, 0.671);
     width: 100%;
@@ -196,6 +201,7 @@ footer p{
 
     .Formulario{
         max-width: 60%;
+        margin-bottom: 40px;
     }
 
     .Formulario input[type="submit"]{
@@ -218,225 +224,41 @@ footer p{
     }
 }
 
-/*
-@media screen and (max-width: 1308px) {
-    .InformacoesImportantes div{
-        display: block;   
-    }
-
-    .InformacoesImportantes .LocalLives{
-        margin-left: 32%;
-        margin-bottom: 5%;
-    }
-
-    .DataEvento{
-        margin-left: 32%;
-    }
-}
-
-@media screen and (max-width: 1124px) {
-    .InformacoesIniciais{
-        width: 450px;
-    }
-
-    .InformacoesIniciais .data{
-        margin-left: 60px;
-    }
-        
-    section{
-        width: 350px;
-    }
-
-    section input[type="submit"]{
-        margin-left: 6px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    main{
-        height: auto;
-        align-items: center;
-        flex-direction: column;
-        background-position: center;
-    }
-
-    .InformacoesIniciais{
-        position: relative;
-        margin-left: 0%;
-        margin-right: 0%; 
-        width: 700px;
-    }
-
-    .InformacoesIniciais h1{
-        padding: 30px;
-    }
-
-    .InformacoesIniciais p{
-        font-size: 23px;
-    }
-
-    .InformacoesIniciais .data{
-        width: 100%;
-        max-width: 450px;
-        margin-left: 15%;
-        margin-right: 0px;
-    }
-
-    section{
-        position: relative;
-        margin-left: 0px;
-        margin-right: 0px; 
-        right: 0%;
-        width: 600px;
-        margin-bottom: 20%;
-    }
-
-    section h2{
-        font-size: 30px;
+@media screen and (max-width: 360px) {
+    .Formulario{
         text-align: center;
     }
 
-    section input[type="submit"]{
-        margin-left: 20%;
+    .InformacoesIniciais .data p{
+        font-size: 4vw;
+    }
+    
+    .InformacoesIniciais .data p:nth-child(2){
+        font-size: 5vw;
     }
 
-    .InformacoesImportantes .LocalLives{
-        margin: auto;
-        margin-bottom: 5%
+    .Formulario{
+        padding: 25px;
     }
 
-    .InformacoesImportantes div{
-        margin: auto;
-        margin-bottom: 10%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    main{
-        background-position: center;
-    }
-
-    .InformacoesIniciais{
-        width: 100%;
-        max-width: 500px;
-        margin: 0%;
-        margin-top: 10%;
-        margin-bottom: 20%;
-    }
-
-    .InformacoesIniciais .data{
-        margin-left: 10px;
-    }
-
-    section{
-        width: 100%;
-        max-width: 400px;
-    }
-
-    section input[type="submit"]{
-        margin-left: 8%;
-        margin-top: 0%;
-    }
-
-    .Programacao div{
-        width: 100%;
-        max-width: 500px;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    *{
-        max-width: 5000px;    
-    }
-
-    .InformacoesIniciais{
-        max-width: 340px;
-        height: auto;
-    }
-
-    .InformacoesIniciais .data{
-        margin-left: 2%;
-        max-width: 300px;
-    }
-
-    section{
-        max-width: 330px;
-    }
-
-    section input[type="submit"]{
-        margin-left: 0%;
-    }
-
-    .InformacoesImportantes{
-        height: auto;
-    }
-
-    .InformacoesImportantes img{
-        width: 40px;
-        top: 3px;
+    .Formulario input[type="submit"]{
+        font-size: 3.5vw;
     }
 
     .InformacoesImportantes div{
-        width: 100%;
-        max-width: 300px;
-        height: auto;
-    }
-
-    .InformacoesImportantes div:last-child{
-        margin-bottom: 15%;
-    }
-
-    .Programacao div{
         max-width: 70%;
         padding: 20px;
     }
-}
 
-@media screen and (max-width: 471px) {
-    section{
-        width: 100%;
-        max-width: 60%;
-        height: auto;
+    .InformacoesImportantes div:last-child{
+        margin-bottom: 50px;
     }
 
-    section h2{
-        text-align: center;
+    img{
+        margin-right: 0%;
     }
 
-    section input[type="submit"]{
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-left: 0%;
-    }
-
-    .InformacoesImportantes{
-        height: auto;
-    }
-
-    .InformacoesImportantes img{
-        width: 10%;
-        top: 7px;
-    }
-
-    .InformacoesImportantes div{
-        width: 100%;
-        max-width: 60%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 460px) {
-    section input[type="submit"]{
-        width: 100%;
-        font-size: 15px;
-        padding-right: 0%;
-        padding-left: 0%;
-    }
-}
-
-@media screen and (max-width: 442px) {
-    .InformacoesIniciais .data{
-        width: 100%;
-        max-width: 90%;
+    .h2-1{
+        font-size: 8vw;
     }
 }
